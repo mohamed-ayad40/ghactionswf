@@ -16,3 +16,5 @@ jobs:
 
       - name: Print Hello Message
         run: echo "Hello from GitHub Actions 🎉"
+      - name: List repository files
+        run: ls -la
